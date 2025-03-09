@@ -7,7 +7,7 @@ const app = express();
 dotenv.config();
 await bootstrap(app, express);
 
-const server = app.listen(process.env.PORT, () => {
+const server = app.listen(3000 || process.env.PORT, () => {
     console.log(`Server running on port ${process.env.PORT}`);
     });
 
