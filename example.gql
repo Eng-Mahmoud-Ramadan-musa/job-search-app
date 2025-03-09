@@ -1,0 +1,25 @@
+query{
+    User{
+        id
+        firstName
+        firstName
+        name
+        email
+        mobileNumber
+        role
+        isConfirmed
+        bannedAt 
+    }
+    Company{
+        id
+        companyName 
+        industry 
+        address 
+        numberOfEmployees 
+        bannedAt
+        approvedByAdmin
+    }
+}
+mutation{
+
+}
